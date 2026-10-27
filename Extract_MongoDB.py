@@ -6,7 +6,7 @@ def extract_data_mongodb():
         database = client["starwars"]
 
         # Converting each collection into a list of dictionaries
-        characters = list(database["characters"].find({}))
-        starships = list(database["starships"].find({}))
+        characters = list(database["characters"].find({}, {"_id": 0}))
+        starships = list(database["starships"].find({}, {"_id": 0}))
 
     return characters, starships
