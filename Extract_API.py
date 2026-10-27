@@ -73,39 +73,44 @@ def get_planets_api():
         endpoint = data["next"]
     return planets
 
-# Call functions
-
-get_people_api()
-get_starships_api()
-get_films_api()
-get_vehicles_api()
-get_species_api()
-get_planets_api()
-
 # Setting retrieve data
-people = get_people_api()
+peoples = get_people_api()
 starships = get_starships_api()
 films = get_films_api()
 vehicles = get_vehicles_api()
 species = get_species_api()
 planets = get_planets_api()
 
-# Print test
-# print(people)
-# print(starships)
-# print(films)
-# print(vehicles)
-# print(species)
-# print(planets)
 
 
-# # Checking type
-# print(type(people))
-# print(type(starships))
-# print(type(films))
-# print(type(vehicles))
-# print(type(species))
-# print(type(planets))
+# Modify urls to names in films
 
+starship_name_by_url = {ship['url']: ship['name'] for ship in starships}
+vehicles_name_by_url = {vehicle['url']: vehicle['name'] for vehicle in vehicles}
+planet_name_by_url = {planet['url']: planet['name'] for planet in planets}
+people_name_by_url = {characters['url']: characters['name'] for characters in peoples}
+species_name_by_url = {species['url']: species['name'] for species in species}
 
+for film in films:
+    film['starships'] = [
+        starship_name_by_url.get(url, url)
+        for url in film['starships']
+    ]
+    film['vehicles'] = [
+        vehicles_name_by_url.get(url, url)
+        for url in film['vehicles']
+    ]
+    film['planets'] = [
+        planet_name_by_url.get(url, url)
+        for url in film['planets']
+    ]
+    film['characters'] = [
+        people_name_by_url.get(url, url)
+        for url in film['characters']
+    ]
+    film['species'] = [
+        species_name_by_url.get(url, url)
+        for url in film['species']
+    ]
 
+print(films)
