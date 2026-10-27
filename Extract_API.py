@@ -3,38 +3,74 @@ import requests
 # Pull from API
 
 def get_people_api():
-    endpoint = requests.get("https://swapi.dev/api/people/")
-    people = endpoint.json()
-    # print(people)
+    endpoint = "https://swapi.dev/api/people"
+    people = []
+    while endpoint:
+        response = requests.get(endpoint, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        people.extend(data["results"])
+        endpoint = data["next"]
+
     return people
 
+
 def get_starships_api():
-    endpoint = requests.get("https://swapi.dev/api/starships/")
-    starships = endpoint.json()
-    # print(starships)
+    endpoint = "https://swapi.dev/api/starships/"
+    starships = []
+    while endpoint:
+        response = requests.get(endpoint, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        starships.extend(data["results"])
+        endpoint = data["next"]
     return starships
 
 def get_films_api():
-    endpoint = requests.get("https://swapi.dev/api/films/")
-    films = endpoint.json()
-    # print(films)
+    endpoint = "https://swapi.dev/api/films/"
+    films = []
+    while endpoint:
+        response = requests.get(endpoint, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        films.extend(data["results"])
+        endpoint = data["next"]
     return films
 
 def get_vehicles_api():
-    endpoint = requests.get("https://swapi.dev/api/vehicles/")
-    vehicles = endpoint.json()
-    # print(vehicles)
+    endpoint = "https://swapi.dev/api/vehicles/"
+    vehicles = []
+
+    while endpoint:
+        response = requests.get(endpoint, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        vehicles.extend(data["results"])
+        endpoint = data["next"]
+
     return vehicles
 
 def get_species_api():
-    endpoint = requests.get("https://swapi.dev/api/species/")
-    species = endpoint.json()
-    # print(species)
+    endpoint = "https://swapi.dev/api/species/"
+    species = []
+    while endpoint:
+        response = requests.get(endpoint, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        species.extend(data["results"])
+        endpoint = data["next"]
+
     return species
 
 def get_planets_api():
-    endpoint = requests.get("https://swapi.dev/api/planets/")
-    planets = endpoint.json()
+    endpoint = "https://swapi.dev/api/planets/"
+    planets = []
+    while endpoint:
+        response = requests.get(endpoint, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        planets.extend(data["results"])
+        endpoint = data["next"]
     return planets
 
 # Call functions
@@ -54,14 +90,22 @@ vehicles = get_vehicles_api()
 species = get_species_api()
 planets = get_planets_api()
 
+# Print test
+# print(people)
+# print(starships)
+# print(films)
+# print(vehicles)
+# print(species)
+# print(planets)
 
-# Checking type
-print(type(people))
-print(type(starships))
-print(type(films))
-print(type(vehicles))
-print(type(species))
-print(type(planets))
+
+# # Checking type
+# print(type(people))
+# print(type(starships))
+# print(type(films))
+# print(type(vehicles))
+# print(type(species))
+# print(type(planets))
 
 
 
