@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc9cccb7-b51c-4432-9ca9-02cc73255b55" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Group_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Group_Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/Transform.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -21,81 +28,81 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AdamMalschuk"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AdamMalschuk&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AdamMalschuk/Group_Project.git",
-    "accountId": "00f8ea68-0ba3-4b42-86c6-f1e9b115a7d6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AdamMalschuk/Group_Project.git&quot;,
+    &quot;accountId&quot;: &quot;00f8ea68-0ba3-4b42-86c6-f1e9b115a7d6&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.466797236895335" />
-      <entry key="MS500" value="3.1842690718166384" />
-      <entry key="S2" value="5.364971575412385" />
-      <entry key="S5" value="6.252584758101553" />
-      <entry key="S10" value="6.6084512138438045" />
-      <entry key="S30" value="6.865280562868378" />
-      <entry key="S60" value="6.932099218657242" />
-      <entry key="M2" value="6.9659131389098095" />
-      <entry key="M5" value="6.986332347184099" />
-      <entry key="M10" value="6.993160675851989" />
-      <entry key="M15" value="6.995439227882354" />
-      <entry key="M30" value="6.997719002356768" />
-      <entry key="H1" value="6.998859348236965" />
-      <entry key="H2" value="6.999429635877463" />
-      <entry key="H4" value="6.999714808377769" />
-      <entry key="D1" value="6.99995246673499" />
-      <entry key="W1" value="6.999993209501047" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000245501595" />
+      <entry key="S10" value="1.0002710241306227" />
+      <entry key="S30" value="1.1345710459069696" />
+      <entry key="S60" value="1.6353598658315156" />
+      <entry key="M2" value="2.3805960454306874" />
+      <entry key="M5" value="3.2203449334935574" />
+      <entry key="M10" value="4.467333601170065" />
+      <entry key="M15" value="7.486704081015118" />
+      <entry key="M30" value="24.779301167641353" />
+      <entry key="H1" value="62.97694927369803" />
+      <entry key="H2" value="109.22496499626072" />
+      <entry key="H4" value="146.81081473279892" />
+      <entry key="D1" value="189.7784331731324" />
+      <entry key="W1" value="198.50221229767817" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S5" value="5.529164058083108E-141" />
+      <entry key="S10" value="7.435834894672627E-71" />
+      <entry key="S30" value="4.20510292668599E-24" />
+      <entry key="S60" value="2.051348224779871E-12" />
+      <entry key="M2" value="1.4638499785164278E-6" />
+      <entry key="M5" value="0.006731204980720403" />
+      <entry key="M10" value="0.19265913977017668" />
+      <entry key="M15" value="0.7242929725447486" />
+      <entry key="M30" value="3.4763021126479035" />
+      <entry key="H1" value="8.89210275741749" />
+      <entry key="H2" value="14.945113389923982" />
+      <entry key="H4" value="19.627933194829776" />
+      <entry key="D1" value="24.795210656965192" />
+      <entry key="W1" value="25.82399830257134" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.420783989125569" />
-      <entry key="MS500" value="3.111884677177908" />
-      <entry key="S2" value="5.325195312800105" />
-      <entry key="S5" value="6.233451568660338" />
-      <entry key="S10" value="6.5982540965256335" />
-      <entry key="S30" value="6.861731377368808" />
-      <entry key="S60" value="6.930305192226749" />
-      <entry key="M2" value="6.965011215851634" />
-      <entry key="M5" value="6.985970392951104" />
-      <entry key="M10" value="6.9929795006771736" />
-      <entry key="M15" value="6.995318400378185" />
-      <entry key="M30" value="6.997658566567191" />
-      <entry key="H1" value="6.998829124830864" />
-      <entry key="H2" value="6.999414522796342" />
-      <entry key="H4" value="6.999707251492659" />
-      <entry key="D1" value="6.999951207206281" />
-      <entry key="W1" value="6.999993029567203" />
+      <entry key="MS100" value="0.40895102927889054" />
+      <entry key="MS500" value="0.8362463999140628" />
+      <entry key="S2" value="0.956276680412056" />
+      <entry key="S5" value="0.9822757797485643" />
+      <entry key="S10" value="0.9913502665791084" />
+      <entry key="S30" value="1.1281023882398382" />
+      <entry key="S60" value="1.625405379491333" />
+      <entry key="M2" value="2.370532656652091" />
+      <entry key="M5" value="3.220714563725336" />
+      <entry key="M10" value="4.654861907249612" />
+      <entry key="M15" value="8.204291815725945" />
+      <entry key="M30" value="28.242934334359592" />
+      <entry key="H1" value="71.85304983969431" />
+      <entry key="H2" value="124.15659604884469" />
+      <entry key="H4" value="166.4298804002472" />
+      <entry key="D1" value="214.5717747548207" />
+      <entry key="W1" value="224.32593246707137" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LHDjvUdIl9tt5kQHLaBgbw5q95" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -104,6 +111,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Extract_API.executor": "Run",
+    "Python.Transform.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -120,6 +129,11 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adamm\PycharmProjects\Group_Project" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -135,9 +149,22 @@
       <option name="presentableId" value="Default" />
       <updated>1793102237499</updated>
     </task>
+    <task id="LOCAL-00001" summary="created file structure">
+      <option name="closed" value="true" />
+      <created>1793103812919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793103812919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="created file structure" />
   </component>
 </project>
